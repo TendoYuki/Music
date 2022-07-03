@@ -35,9 +35,17 @@ li {
 	display: inline;
 }
 
-p{
-	display: inline;
+#bouton{
+	background-color:rgba(70,70,120,0.7);
+	color:white;
+	width:10%;
+	
+	
 }
+#bouton:hover{
+	background-color:red;
+}
+	
 #image{
 	width:10%;
 	height:auto;
@@ -75,13 +83,20 @@ footer {
 div{
 	margin-top:5%;
 	margin-left:5%;
-	margin-right:10%;
+	margin-right:5%;
 	background-color:rgba(15,15,15,0.7);
 	
 }
 a{
 	text-decoration:none;
 	color:black;
+}
+
+#aligne{
+	margin-left:40%;
+}
+#titre{
+	margin-left:50%;
 }
 
 #scroll_to_top {
